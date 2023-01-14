@@ -7,6 +7,14 @@ function assignClickHandler () {
       window.alert('Incorrect year: ' + startYear)
       return
     }
+    function assignClickHandler () {
+  document.getElementById('addRec').addEventListener('click', function () {
+    const endtYear = document.getElementById('startYear').value
+    if (endYear > 2023) {
+      window.alert('Incorrect year: ' + startYear)
+      return
+    }
+
     const fullName = document.getElementById('fullName').value
     const major = document.getElementById('major').value
 
