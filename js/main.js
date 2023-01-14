@@ -9,9 +9,9 @@ function assignClickHandler () {
     }
     function assignClickHandler () {
   document.getElementById('addRec').addEventListener('click', function () {
-    const endtYear = document.getElementById('startYear').value
+    const endYear = document.getElementById('startYear').value
     if (endYear > 2023) {
-      window.alert('Incorrect year: ' + startYear)
+      window.alert('Incorrect year: ' + endYear)
       return
     }
 
